@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "codex": {
+      "command": "codex",
+      "args": [
+        "mcp-server",
+        "-c", "model=\"gpt-5.4\"",
+        "-c", "model_reasoning_effort=\"high\"",
+        "-c", "approval_policy=\"never\"",
+        "-c", "sandbox_mode=\"read-only\"",
+        "-c", "web_search=\"live\""
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest", "--headless"]
+    }
+  }
+}
