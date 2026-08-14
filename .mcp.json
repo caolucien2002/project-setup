@@ -4,8 +4,8 @@
       "command": "codex",
       "args": [
         "mcp-server",
-        "-c", "model=\"qwen3.8-max\"",
-        "-c", "model_reasoning_effort=\"xhigh\"",
+        "-c", "model=\"qwen3.7-plus\"",
+        "-c", "model_reasoning_effort=\"medium\"",
         "-c", "approval_policy=\"never\"",
         "-c", "sandbox_mode=\"read-only\"",
         "-c", "web_search=\"live\""
