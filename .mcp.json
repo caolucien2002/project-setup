@@ -4,8 +4,8 @@
       "command": "codex",
       "args": [
         "mcp-server",
-        "-c", "model=\"gpt-5.4\"",
-        "-c", "model_reasoning_effort=\"high\"",
+        "-c", "model=\"qwen3.8-max\"",
+        "-c", "model_reasoning_effort=\"xhigh\"",
         "-c", "approval_policy=\"never\"",
         "-c", "sandbox_mode=\"read-only\"",
         "-c", "web_search=\"live\""
@@ -13,7 +13,7 @@
     },
     "playwright": {
       "command": "npx",
-      "args": ["@playwright/mcp@latest", "--headless"]
+      "args": ["@playwright/mcp@0.0.79", "--headless"]
     }
   }
 }
